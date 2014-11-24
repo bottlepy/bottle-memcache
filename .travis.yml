@@ -1,0 +1,13 @@
+# -*- mode:python; sh-basic-offset:2; indent-tabs-mode:nil; coding:utf-8 -*-
+# vim:set tabstop=2 softtabstop=2 expandtab shiftwidth=2 fileencoding=utf-8:
+language: python
+services:
+  - memcached
+python:
+  - "2.6"
+  - "2.7"
+  - "3.2"
+  - "3.3"
+  - "3.4"
+install: "python setup.py install"
+script: "python test.py"
