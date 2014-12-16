@@ -20,8 +20,8 @@ Install with one of the following commands::
 
 or download the latest version from github::
 
-    $ git clone git://github.com/bottlepy/bottle-extras.git
-    $ cd bottle-extras/memcache
+    $ git clone git://github.com/bottlepy/bottle-memcache.git
+    $ cd bottle-memcache
     $ python setup.py install
 
 Usage
