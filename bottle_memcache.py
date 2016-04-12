@@ -6,6 +6,7 @@
 
 import memcache
 import inspect
+from bottle import PluginError
 
 
 class MemcachePlugin(object):
